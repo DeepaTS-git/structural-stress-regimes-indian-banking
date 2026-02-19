@@ -108,3 +108,21 @@ The penalty was selected as the smallest value that produced stable and interpre
 - Breakpoint detection depends on penalty parameter selection.
 - Structural breaks indicate statistical shifts, not causation.
 - Interpretation should be combined with economic context.
+
+### How to Run?
+
+1. Clone the repository
+2. Install dependencies
+```bash
+   pip install -r requirements.txt
+```
+3. Open and run the notebook:
+```bash
+notebooks/final.ipynb
+```
+5. The notebook performs:
+
+- Cleaning and restructuring of RBI tables with hierarchical headers
+- Trend and volatility analysis across bank groups
+- Structural break detection using the PELT algorithm
+- Visualization of detected regime shifts
