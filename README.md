@@ -120,8 +120,8 @@ The penalty was selected as the smallest value that produced stable and interpre
 ```bash
 notebooks/final.ipynb
 ```
-5. The notebook performs:
 
+The notebook performs:
 - Cleaning and restructuring of RBI tables with hierarchical headers
 - Trend and volatility analysis across bank groups
 - Structural break detection using the PELT algorithm
